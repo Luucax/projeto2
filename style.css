@@ -1,6 +1,7 @@
 header{
     background-color: rgb(255, 255, 255); /* cor de fundo*/
     max-width: 1000px; /*largura máxima permitida- RESPONSIVO*/
+    min-width: 250px;
     margin: auto; /*centraliza*/
     height: 300px;
 }
@@ -10,7 +11,7 @@ div#capa{
     
     width: 100%; /* faz a div ocupar 100% da largura da header*/
     height: 400px; /* altura da capa*/
-    background-image: url('capa.jpg.webp'); /*coloca uma imagem de fundo na div*/
+    background-image: url(images/bg-fantasia.jpg); /*coloca uma imagem de fundo na div*/
     background-size: cover; /*ajusta o tamanho da imagem*/
     background-repeat: no-repeat; /*não repetir a imagem*/
     background-position: 0px  -150px; /*posiciona a imagem no meio da div*/
