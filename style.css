@@ -20,3 +20,16 @@ div#capa{
     
 
 }
+
+img.sociais{
+    width: 40px; /* define a largura da imagens*/
+    filter: invert(0.5) opacity(.7) drop-shadow(0px 0px 0px purple);/* aplica filtros na imagem*/
+    
+}
+
+img.sociais:hover{
+
+    filter: invert(1) opacity(1) 
+    
+}
+}
