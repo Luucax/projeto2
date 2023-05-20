@@ -7,7 +7,7 @@ header{
 
 
 div#capa{
-    background-color:rgba(171, 126, 201, 0.712); /*cor de fundo*/
+    
     width: 100%; /* faz a div ocupar 100% da largura da header*/
     height: 400px; /* altura da capa*/
     background-image: url('capa.jpg.webp'); /*coloca uma imagem de fundo na div*/
