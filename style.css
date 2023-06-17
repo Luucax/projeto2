@@ -1,10 +1,10 @@
-header{
+header,main,footer{
     background-color: rgb(255, 255, 255); /* cor de fundo*/
     max-width: 1000px; /*largura máxima permitida- RESPONSIVO*/
     min-width: 250px;
     margin: auto; /*centraliza*/
-    height: 300px;
-}
+    /* height: 300px; */
+} 
 
 
 div#capa{
