@@ -1,3 +1,8 @@
+body{
+background-color: rgb(216, 194, 233);
+}
+
+
 header,main,footer{
     background-color: rgb(255, 255, 255); /* cor de fundo*/
     max-width: 1000px; /*largura máxima permitida- RESPONSIVO*/
@@ -8,29 +13,74 @@ header,main,footer{
 
 
 div#capa{
-    
     width: 100%; /* faz a div ocupar 100% da largura da header*/
-    height: 400px; /* altura da capa*/
-    background-image: url(images/bg-fantasia.jpg); /*coloca uma imagem de fundo na div*/
+    height: 300px; /* altura da capa*/
+    background-image: url('images/bg-floral.jpg');/*coloca uma imagem de fundo na div*/
     background-size: cover; /*ajusta o tamanho da imagem*/
     background-repeat: no-repeat; /*não repetir a imagem*/
-    background-position: 0px  -150px; /*posiciona a imagem no meio da div*/
-    color: black; /*define a cor da fonte*/
+    background-position: center; /*posiciona a imagem no meio da div*/
+    color: rgb(135, 203, 241); /*define a cor da fonte*/
     font-family: Arial, Helvetica, sans-serif ; /* muda a fonte*/
-    
-    
+    position: relative; /*posicionamento do pai deve ser relaticvo*/
+    display: flex; /*deixar os elementos ineternos[filhos] flexiveis [soltos]*/
+    flex-direction: column; /* alinha os elementos internos um abixo do outro de cima para baixo*/
+    justify-content: center;/* alinhamento vertical*/
+    align-items: center;/* alinhamento horizontal*/
+
 
 }
+
+#capa>h1{
+    text-shadow: 3px 3px 3px rgb(116, 112, 112); /*sombra do texto*/
+}
+
+#capa>p{
+   /*position: absolute;
+    top: 165;
+    background-color: aliceblue;
+    padding: 5px;*/
+}
+
+div#sociais{
+     /* background-color: rgb(190, 112, 10); */
+     width: 130px;
+     position: absolute;/* posicionamento do filho deve ser absoluto*/
+     top: 10px; 
+     right: 10px;
+     display: flex;
+     justify-content: space-between;
+}
+
 
 img.sociais{
     width: 40px; /* define a largura da imagens*/
     filter: invert(0.5) opacity(.7) drop-shadow(0px 0px 0px purple);/* aplica filtros na imagem*/
-    
 }
+
 
 img.sociais:hover{
 
     filter: invert(1) opacity(1) 
-    
 }
+
+footer{
+    background-color: beige;
+    color: cornflowerblue;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    margin: 50px;
+    right: 100px;
+    left: 100px;
+
+    
+
+}
+
+img.fotos{
+    width: 300px;
+    margin: 0px;
 }
