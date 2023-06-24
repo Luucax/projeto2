@@ -1,10 +1,10 @@
 body{
-background-color: rgb(216, 194, 233);
+background-color: pink;
 }
 
 
 header,main,footer{
-    background-color: rgb(255, 255, 255); /* cor de fundo*/
+    background-color:rgb(247, 235, 221) ; /* cor de fundo*/
     max-width: 1000px; /*largura máxima permitida- RESPONSIVO*/
     min-width: 250px;
     margin: auto; /*centraliza*/
@@ -71,7 +71,7 @@ footer{
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 0px;
+    bottom: -1000px;
     margin: 50px;
     right: 100px;
     left: 100px;
@@ -83,4 +83,14 @@ footer{
 img.fotos{
     width: 300px;
     margin: 0px;
+}
+
+div#imagens{
+    width: 100%;
+    display: flex;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
 }
